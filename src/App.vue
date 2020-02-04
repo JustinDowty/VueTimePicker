@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    {{timeVal}}<br><br>
+    <TimePicker v-model="timeVal"></TimePicker>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TimePicker from './TimePicker.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    TimePicker
+  },
+  data() {
+    return {
+      timeVal: null
+    }
+  },
+  methods: {
+    update(value) {
+      this.timeVal = value;
+    }
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin: 60px;
 }
 </style>

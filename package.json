@@ -1,10 +1,11 @@
 {
-  "name": "component-lib",
+  "name": "vue-time-picker-bootstrap-style",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:npm": "vue-cli-service build --target lib --name timepicker src/timepicker.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

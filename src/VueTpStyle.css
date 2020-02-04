@@ -1,0 +1,79 @@
+.vue-tp-wrapper * {
+    box-sizing: border-box;
+}
+
+#vue-tp-time {
+    background: white;
+    position: absolute;
+    top: 30px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 5px;
+    width: 200px;
+}
+
+.vue-tp-row {
+    display: flex;
+}
+
+.vue-tp-row .chevron-btn {
+    border: 1px solid transparent;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.vue-tp-row .chevron-btn:hover {
+    background: #ccc;
+    border: 1px solid #999;
+    border-radius: 2px;
+}
+
+.vue-tp-row .chevron-btn svg {
+    height: 20px;
+    width: 16px;
+}
+
+.vue-tp-input {
+    width: 33%;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.vue-tp-input input,
+.vue-tp-input select {
+    max-width: 100%;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.vue-tp-spacer {
+    flex: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+#vue-tp-time::before {
+    content: "";
+    display: inline-block;
+    left: 6px;
+    position: absolute;
+    top: -7px;
+    border-bottom: 7px solid rgba(0, 0, 0, 0.8);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+#vue-tp-time::after {
+    content: "";
+    display: inline-block;
+    left: 7px;
+    position: absolute;
+    top: -6px;
+    border-bottom: 6px solid rgb(255, 255, 255);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
