@@ -90,6 +90,9 @@ export default {
           } else {
               this.hours = h;
           }
+          if(this.hours == 12) {
+              this.amPm = this.amPm == "PM" ? "AM" : "PM";
+          }
           this.update();
       },
       incrementMinutes() {
@@ -112,6 +115,9 @@ export default {
               this.hours = "0" + h;
           } else {
               this.hours = h;
+          }
+          if(this.hours == 11) {
+              this.amPm = this.amPm == "PM" ? "AM" : "PM";
           }
           this.update();
       },

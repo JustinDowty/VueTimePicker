@@ -5,11 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:npm": "vue-cli-service build --target lib --name timepicker src/timepicker.vue",
+    "build:npm": "vue-cli-service build --target lib --name TimePicker src/TimePicker.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.4.4",
+    "entry": "^0.4.0",
     "vue": "^2.6.10",
     "vue-time-picker-bootstrap": "^1.0.0"
   },
