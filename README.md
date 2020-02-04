@@ -4,11 +4,11 @@ A simple time picker for Vue with a Bootstrap style.
 
 CSS Style Sheet: https://github.com/JustinDowty/VueTimePicker/blob/master/src/VueTpStyle.css
 
-##Install
+## Install
 
 `npm i vue-time-picker-bootstrap`
 
-##Usage
+## Usage
 
 `import TimePicker from 'vue-time-picker-bootstrap'`
 
