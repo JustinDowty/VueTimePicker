@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+#vue-tp-time-display {
+    cursor: auto;
+}
+
 #vue-tp-time {
     background: white;
     position: absolute;
@@ -22,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .vue-tp-row .chevron-btn:hover {
@@ -46,7 +50,7 @@
 .vue-tp-input input,
 .vue-tp-input select {
     max-width: 100%;
-    height: 30px;
+    height: 50px;
     font-size: 18px;
     text-align: center;
 }
