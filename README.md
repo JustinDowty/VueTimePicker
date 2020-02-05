@@ -30,7 +30,7 @@ Then in your template
 Or you can include it directly with a script
 
 ```
-<script src="https://www.unpkg.com/vue-time-picker-bootstrap@1.1.2/index.js></script>
+<script src="https://www.unpkg.com/vue-time-picker-bootstrap@1.1.2/index.js"></script>
 <script>
   // Add this before instantiating your Vue instance
   Vue.use(TimePicker);
