@@ -157,4 +157,4 @@ export default {
 }
 </script>
 
-<style src="./VueTpStyle.css"></style>
+<style src="./vue-tp-style.css"></style>
