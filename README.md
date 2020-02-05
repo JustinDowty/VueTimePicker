@@ -13,9 +13,36 @@ CSS Style Sheet: https://github.com/JustinDowty/VueTimePicker/blob/master/src/Vu
 
 ## Usage
 
-`import TimePicker from 'vue-time-picker-bootstrap'`
+```javascript
+import TimePicker from 'vue-time-picker-bootstrap'
+export default {
+  name: 'app',
+  components: {
+    TimePicker
+  },
+  // ...
+}
+```
+Then in your template
 
-`<TimePicker v-model="yourVar"></TimePicker>`
+```<TimePicker v-model="yourVar"></TimePicker>```
+
+Or you can include it directly with a script
+
+```
+<script src="https://www.unpkg.com/vue-time-picker-bootstrap@1.0.4/index.js></script>
+<script>
+  // Add this before instantiating your Vue instance
+  Vue.use(TimePicker);
+  
+  var vm = new Vue({
+  // ...
+</script>
+
+You can also link the style sheet in the Head of you HTML
+
+<link rel="stylesheet" type="text/css" href="http://unpkg.com/vue-time-picker-bootstrap@1.0.3/vue-tp-style.css">
+```
 
 Time is returned as `hh:mm:ss a`
 
