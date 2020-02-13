@@ -57,7 +57,7 @@ export default {
           amPm : "PM"
       }
   },
-  created() {
+  mounted() {
     document.addEventListener('click', (event) => {
       if(document.getElementById('vue-tp-time') 
         && !document.getElementById('vue-tp-time').contains(event.target)
