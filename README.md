@@ -30,7 +30,7 @@ Then in your template
 Or you can include it directly with a script
 
 ```
-<script src="https://www.unpkg.com/vue-time-picker-bootstrap@1.1.2/index.js"></script>
+<script src="https://www.unpkg.com/vue-time-picker-bootstrap@1.1.4/index.js"></script>
 <script>
   // Add this before instantiating your Vue instance
   Vue.use(TimePicker);
@@ -41,7 +41,7 @@ Or you can include it directly with a script
 
 You can also link the style sheet in the Head of your HTML
 
-<link rel="stylesheet" type="text/css" href="http://unpkg.com/vue-time-picker-bootstrap@1.1.2/vue-tp-style.css">
+<link rel="stylesheet" type="text/css" href="https://www.unpkg.com/vue-time-picker-bootstrap@1.1.4/vue-tp-style.css">
 ```
 
 Time is returned as `hh:mm:ss a`
