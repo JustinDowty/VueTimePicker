@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import TimePicker from './TimePicker.vue'
+import TimePicker from './TimePicker'
 
 export default {
   name: 'app',
@@ -19,9 +19,9 @@ export default {
     }
   },
   methods: {
-    update(value) {
+    /*update(value) {
       this.timeVal = value;
-    }
+    }*/
   }
 }
 </script>

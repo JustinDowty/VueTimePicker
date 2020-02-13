@@ -12,7 +12,7 @@
     "core-js": "^3.4.4",
     "entry": "^0.4.0",
     "vue": "^2.6.10",
-    "vue-time-picker-bootstrap": "^1.0.0"
+    "vue-time-picker-bootstrap": "^1.1.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",

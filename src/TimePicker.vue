@@ -50,7 +50,7 @@ export default {
   props: ['userVar'],
   data() {
       return {
-          time : "12:00PM",
+          time : "12:00 PM",
           showPicker : false,
           hours : "12",
           minutes : "00",
@@ -71,7 +71,7 @@ export default {
       update() {
           this.hours = this.padNumber(this.hours);
           this.minutes = this.padNumber(this.minutes);
-          this.time = this.hours + ":" + this.minutes + this.amPm.toLowerCase();
+          this.time = this.hours + ":" + this.minutes + " " + this.amPm;
           let timeString = this.hours+":"+this.minutes+":"+"00 "+this.amPm;
           this.$emit("input", timeString);
       },
