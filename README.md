@@ -39,7 +39,7 @@ Or you can include it directly with a script
   // ...
 </script>
 
-You can also link the style sheet in the Head of you HTML
+You can also link the style sheet in the Head of your HTML
 
 <link rel="stylesheet" type="text/css" href="http://unpkg.com/vue-time-picker-bootstrap@1.1.2/vue-tp-style.css">
 ```
