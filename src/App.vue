@@ -19,9 +19,7 @@ export default {
     }
   },
   methods: {
-    /*update(value) {
-      this.timeVal = value;
-    }*/
+    
   }
 }
 </script>
